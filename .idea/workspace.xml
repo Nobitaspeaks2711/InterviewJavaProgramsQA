@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8915c61-5bb2-4773-b443-eac19279318b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterviewJavaProgramsQA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArmstrongNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FibonacciSeries.java" afterDir="false" />
+    <list default="true" id="c8915c61-5bb2-4773-b443-eac19279318b" name="Changes" comment="Implement number-based Java exercises for QA automation interview prep">
+      <change afterPath="$PROJECT_DIR$/src/FactorialNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OddEvenNumbers.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/PalindromeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SwapTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrimeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +26,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;MERGED&quot;,
+      &quot;assignee&quot;: &quot;Nobitaspeaks2711&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;MERGED&quot;,
+    &quot;assignee&quot;: &quot;Nobitaspeaks2711&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Nobitaspeaks2711/InterviewJavaProgramsQA.git&quot;,
+    &quot;accountId&quot;: &quot;f0894761-4be6-4343-b6d0-0e0785da1cde&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -43,8 +56,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArmstrongNumbers.executor": "Run",
+    "Application.FactorialNumber.executor": "Run",
     "Application.FibonacciSeries.executor": "Run",
+    "Application.OddEvenNumbers.executor": "Run",
     "Application.PalindromeNumber.executor": "Run",
+    "Application.PrimeNumber.executor": "Run",
     "Application.SwapTwoNumbers.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -53,9 +69,9 @@
     "onboarding.tips.debug.path": "C:/Users/DELL/IdeaProjects/InterviewJavaProgramsQA/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PalindromeNumber">
-    <configuration name="ArmstrongNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArmstrongNumbers" />
+  <component name="RunManager" selected="Application.PrimeNumber">
+    <configuration name="FactorialNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FactorialNumber" />
       <module name="InterviewJavaProgramsQA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,6 +84,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OddEvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OddEvenNumbers" />
+      <module name="InterviewJavaProgramsQA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PalindromeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PalindromeNumber" />
       <module name="InterviewJavaProgramsQA" />
@@ -75,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwapTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwapTwoNumbers" />
+    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrimeNumber" />
       <module name="InterviewJavaProgramsQA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,10 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimeNumber" />
+        <item itemvalue="Application.OddEvenNumbers" />
+        <item itemvalue="Application.FactorialNumber" />
         <item itemvalue="Application.PalindromeNumber" />
         <item itemvalue="Application.FibonacciSeries" />
-        <item itemvalue="Application.ArmstrongNumbers" />
-        <item itemvalue="Application.SwapTwoNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -100,6 +124,19 @@
       <option name="presentableId" value="Default" />
       <updated>1726034603506</updated>
     </task>
+    <task id="LOCAL-00001" summary="Implement number-based Java exercises for QA automation interview prep">
+      <option name="closed" value="true" />
+      <created>1726290395969</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726290395969</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implement number-based Java exercises for QA automation interview prep" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement number-based Java exercises for QA automation interview prep" />
   </component>
 </project>
