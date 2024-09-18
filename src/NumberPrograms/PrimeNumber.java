@@ -1,3 +1,5 @@
+package NumberPrograms;
+
 public class PrimeNumber {
     public static void main (String[]args){
         //Prime number is a number that is greater than 1 and  divided by one or itself only.

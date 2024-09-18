@@ -1,3 +1,5 @@
+package NumberPrograms;
+
 public class FibonacciSeries {
    // In fibonacci series , the next number is sum of previous two number
     public static void main(String[]args){

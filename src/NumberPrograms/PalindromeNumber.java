@@ -1,3 +1,5 @@
+package NumberPrograms;
+
 public class PalindromeNumber {
     //12321 is the palindrome number.
     public static void main (String[]args){

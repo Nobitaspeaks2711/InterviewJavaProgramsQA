@@ -1,3 +1,5 @@
+package NumberPrograms;
+
 public class SwapTwoNumbers {
 
     //1.Swap two numbers

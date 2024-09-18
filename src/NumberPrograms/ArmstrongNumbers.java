@@ -1,3 +1,5 @@
+package NumberPrograms;
+
 public class ArmstrongNumbers {
     //Armstrong number is a number that is equal to the sum of cubes of its digits.
     //153 is an armstrong numbers. (1*1*1)+(5*5*5)+(3*3*3)=153

@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8915c61-5bb2-4773-b443-eac19279318b" name="Changes" comment="Implement number-based Java exercises for QA automation interview prep">
-      <change afterPath="$PROJECT_DIR$/src/FactorialNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OddEvenNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PalindromeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrimeNumber.java" afterDir="false" />
+    <list default="true" id="c8915c61-5bb2-4773-b443-eac19279318b" name="Changes" comment="Added more number-based Java exercises for QA automation interview prep">
+      <change afterPath="$PROJECT_DIR$/src/NumberPrograms/CountDigInIntegerNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumberPrograms/LargestNumberBtw3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumberPrograms/SumOfDigits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArmstrongNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberPrograms/ArmstrongNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactorialNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberPrograms/FactorialNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FibonacciSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberPrograms/FibonacciSeries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OddEvenNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberPrograms/OddEvenNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberPrograms/PalindromeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberPrograms/PrimeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwapTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberPrograms/SwapTwoNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +50,9 @@
     &quot;accountId&quot;: &quot;f0894761-4be6-4343-b6d0-0e0785da1cde&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -58,60 +67,77 @@
     "Application.ArmstrongNumbers.executor": "Run",
     "Application.FactorialNumber.executor": "Run",
     "Application.FibonacciSeries.executor": "Run",
+    "Application.LargestNumberBtw3.executor": "Run",
     "Application.OddEvenNumbers.executor": "Run",
     "Application.PalindromeNumber.executor": "Run",
     "Application.PrimeNumber.executor": "Run",
+    "Application.SumOfDigits.executor": "Run",
     "Application.SwapTwoNumbers.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/DELL/OneDrive/Desktop/AutomationFrameworkSelenium-main",
-    "onboarding.tips.debug.path": "C:/Users/DELL/IdeaProjects/InterviewJavaProgramsQA/src/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/DELL/IdeaProjects/InterviewJavaProgramsQA/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PrimeNumber">
+  <component name="RunManager" selected="Application.SumOfDigits">
     <configuration name="FactorialNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FactorialNumber" />
+      <option name="MAIN_CLASS_NAME" value="NumberPrograms.FactorialNumber" />
       <module name="InterviewJavaProgramsQA" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FibonacciSeries" />
+    <configuration name="LargestNumberBtw3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumberPrograms.LargestNumberBtw3" />
       <module name="InterviewJavaProgramsQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NumberPrograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="OddEvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OddEvenNumbers" />
-      <module name="InterviewJavaProgramsQA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PalindromeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PalindromeNumber" />
+      <option name="MAIN_CLASS_NAME" value="NumberPrograms.OddEvenNumbers" />
       <module name="InterviewJavaProgramsQA" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrimeNumber" />
+      <option name="MAIN_CLASS_NAME" value="NumberPrograms.PrimeNumber" />
       <module name="InterviewJavaProgramsQA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumberPrograms.SumOfDigits" />
+      <module name="InterviewJavaProgramsQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NumberPrograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumOfDigits" />
+        <item itemvalue="Application.LargestNumberBtw3" />
         <item itemvalue="Application.PrimeNumber" />
         <item itemvalue="Application.OddEvenNumbers" />
         <item itemvalue="Application.FactorialNumber" />
-        <item itemvalue="Application.PalindromeNumber" />
-        <item itemvalue="Application.FibonacciSeries" />
       </list>
     </recent_temporary>
   </component>
@@ -132,11 +158,28 @@
       <option name="project" value="LOCAL" />
       <updated>1726290395969</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added more number-based Java exercises for QA automation interview prep">
+      <option name="closed" value="true" />
+      <created>1726552505806</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726552505806</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added more number-based Java exercises for QA automation interview prep">
+      <option name="closed" value="true" />
+      <created>1726552562251</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726552562251</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implement number-based Java exercises for QA automation interview prep" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement number-based Java exercises for QA automation interview prep" />
+    <MESSAGE value="Added more number-based Java exercises for QA automation interview prep" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more number-based Java exercises for QA automation interview prep" />
   </component>
 </project>
