@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8915c61-5bb2-4773-b443-eac19279318b" name="Changes" comment="Added more number-based Java exercises for QA automation interview prep">
-      <change afterPath="$PROJECT_DIR$/src/NumberPrograms/CountDigInIntegerNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NumberPrograms/LargestNumberBtw3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NumberPrograms/SumOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringPrograms/CountNumOccurrenceGivenWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringPrograms/EachWordOccrInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringPrograms/RemoveSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringPrograms/ReverseEntireSent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringPrograms/ReverseString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArmstrongNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberPrograms/ArmstrongNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactorialNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberPrograms/FactorialNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FibonacciSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberPrograms/FibonacciSeries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OddEvenNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberPrograms/OddEvenNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberPrograms/PalindromeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberPrograms/PrimeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwapTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberPrograms/SwapTwoNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +52,9 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2lues8KlETfnBSTAo3eJ17pOUA1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -65,12 +62,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArmstrongNumbers.executor": "Run",
+    "Application.CountNumOccurrenceGivenWord.executor": "Run",
+    "Application.CountNumOccurrenceString.executor": "Run",
+    "Application.EachWordOccrInString.executor": "Run",
     "Application.FactorialNumber.executor": "Run",
     "Application.FibonacciSeries.executor": "Run",
     "Application.LargestNumberBtw3.executor": "Run",
     "Application.OddEvenNumbers.executor": "Run",
     "Application.PalindromeNumber.executor": "Run",
     "Application.PrimeNumber.executor": "Run",
+    "Application.RemoveSpace.executor": "Run",
+    "Application.ReverseString.executor": "Run",
     "Application.SumOfDigits.executor": "Run",
     "Application.SwapTwoNumbers.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -83,20 +85,13 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SumOfDigits">
-    <configuration name="FactorialNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumberPrograms.FactorialNumber" />
-      <module name="InterviewJavaProgramsQA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LargestNumberBtw3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumberPrograms.LargestNumberBtw3" />
+  <component name="RunManager" selected="Application.EachWordOccrInString">
+    <configuration name="CountNumOccurrenceGivenWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringPrograms.CountNumOccurrenceGivenWord" />
       <module name="InterviewJavaProgramsQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NumberPrograms.*" />
+          <option name="PATTERN" value="StringPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,16 +99,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddEvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumberPrograms.OddEvenNumbers" />
+    <configuration name="EachWordOccrInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringPrograms.EachWordOccrInString" />
       <module name="InterviewJavaProgramsQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StringPrograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumberPrograms.PrimeNumber" />
+    <configuration name="RemoveSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringPrograms.RemoveSpace" />
       <module name="InterviewJavaProgramsQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StringPrograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringPrograms.ReverseString" />
+      <module name="InterviewJavaProgramsQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StringPrograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EachWordOccrInString" />
+        <item itemvalue="Application.CountNumOccurrenceGivenWord" />
+        <item itemvalue="Application.RemoveSpace" />
+        <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.SumOfDigits" />
-        <item itemvalue="Application.LargestNumberBtw3" />
-        <item itemvalue="Application.PrimeNumber" />
-        <item itemvalue="Application.OddEvenNumbers" />
-        <item itemvalue="Application.FactorialNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -174,12 +194,36 @@
       <option name="project" value="LOCAL" />
       <updated>1726552562251</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added more number-based Java exercises for QA automation interview prep">
+      <option name="closed" value="true" />
+      <created>1726639863162</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726639863162</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implement number-based Java exercises for QA automation interview prep" />
     <MESSAGE value="Added more number-based Java exercises for QA automation interview prep" />
     <option name="LAST_COMMIT_MESSAGE" value="Added more number-based Java exercises for QA automation interview prep" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringPrograms/RemoveSpace.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringPrograms/CountNumOccurrenceGivenWord.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
