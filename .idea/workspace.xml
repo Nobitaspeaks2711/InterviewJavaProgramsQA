@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8915c61-5bb2-4773-b443-eac19279318b" name="Changes" comment="Added more number-based Java exercises for QA automation interview prep">
-      <change afterPath="$PROJECT_DIR$/src/StringPrograms/CountNumOccurrenceGivenWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringPrograms/EachWordOccrInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringPrograms/RemoveSpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringPrograms/ReverseEntireSent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringPrograms/ReverseString.java" afterDir="false" />
+    <list default="true" id="c8915c61-5bb2-4773-b443-eac19279318b" name="Changes" comment="Added more String-based Java exercises for QA automation interview prep">
+      <change afterPath="$PROJECT_DIR$/src/ArrayPrograms/CommonEleArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayPrograms/FirstnLastNumArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayPrograms/SecLarSecSmallArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,17 +60,20 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArmstrongNumbers.executor": "Run",
+    "Application.CommonEleArray.executor": "Run",
     "Application.CountNumOccurrenceGivenWord.executor": "Run",
     "Application.CountNumOccurrenceString.executor": "Run",
     "Application.EachWordOccrInString.executor": "Run",
     "Application.FactorialNumber.executor": "Run",
     "Application.FibonacciSeries.executor": "Run",
+    "Application.FirstnLastNumArray.executor": "Run",
     "Application.LargestNumberBtw3.executor": "Run",
     "Application.OddEvenNumbers.executor": "Run",
     "Application.PalindromeNumber.executor": "Run",
     "Application.PrimeNumber.executor": "Run",
     "Application.RemoveSpace.executor": "Run",
     "Application.ReverseString.executor": "Run",
+    "Application.SecLarSecSmallArray.executor": "Run",
     "Application.SumOfDigits.executor": "Run",
     "Application.SwapTwoNumbers.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -85,7 +86,20 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EachWordOccrInString">
+  <component name="RunManager" selected="Application.SecLarSecSmallArray">
+    <configuration name="CommonEleArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayPrograms.CommonEleArray" />
+      <module name="InterviewJavaProgramsQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArrayPrograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CountNumOccurrenceGivenWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StringPrograms.CountNumOccurrenceGivenWord" />
       <module name="InterviewJavaProgramsQA" />
@@ -112,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringPrograms.RemoveSpace" />
+    <configuration name="FirstnLastNumArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayPrograms.FirstnLastNumArray" />
       <module name="InterviewJavaProgramsQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringPrograms.*" />
+          <option name="PATTERN" value="ArrayPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,25 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringPrograms.ReverseString" />
+    <configuration name="SecLarSecSmallArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayPrograms.SecLarSecSmallArray" />
       <module name="InterviewJavaProgramsQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringPrograms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumberPrograms.SumOfDigits" />
-      <module name="InterviewJavaProgramsQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="NumberPrograms.*" />
+          <option name="PATTERN" value="ArrayPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SecLarSecSmallArray" />
+        <item itemvalue="Application.FirstnLastNumArray" />
+        <item itemvalue="Application.CommonEleArray" />
         <item itemvalue="Application.EachWordOccrInString" />
         <item itemvalue="Application.CountNumOccurrenceGivenWord" />
-        <item itemvalue="Application.RemoveSpace" />
-        <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.SumOfDigits" />
       </list>
     </recent_temporary>
   </component>
@@ -202,13 +203,22 @@
       <option name="project" value="LOCAL" />
       <updated>1726639863162</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added more String-based Java exercises for QA automation interview prep">
+      <option name="closed" value="true" />
+      <created>1726727584772</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726727584772</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implement number-based Java exercises for QA automation interview prep" />
     <MESSAGE value="Added more number-based Java exercises for QA automation interview prep" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added more number-based Java exercises for QA automation interview prep" />
+    <MESSAGE value="Added more String-based Java exercises for QA automation interview prep" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more String-based Java exercises for QA automation interview prep" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
