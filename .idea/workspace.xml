@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8915c61-5bb2-4773-b443-eac19279318b" name="Changes" comment="Added more String-based Java exercises for QA automation interview prep">
-      <change afterPath="$PROJECT_DIR$/src/ArrayPrograms/CommonEleArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayPrograms/FirstnLastNumArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayPrograms/SecLarSecSmallArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumberPrograms/LeapYear.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,15 +64,19 @@
     "Application.EachWordOccrInString.executor": "Run",
     "Application.FactorialNumber.executor": "Run",
     "Application.FibonacciSeries.executor": "Run",
+    "Application.FindDuplicateStringCharacter.executor": "Run",
     "Application.FirstnLastNumArray.executor": "Run",
     "Application.LargestNumberBtw3.executor": "Run",
     "Application.OddEvenNumbers.executor": "Run",
     "Application.PalindromeNumber.executor": "Run",
     "Application.PrimeNumber.executor": "Run",
+    "Application.RemoveDuplicateChar.executor": "Run",
     "Application.RemoveSpace.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "Application.SecLarSecSmallArray.executor": "Run",
+    "Application.StringCount.executor": "Run",
     "Application.SumOfDigits.executor": "Run",
+    "Application.SwapStringsUsingSubstring.executor": "Run",
     "Application.SwapTwoNumbers.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -86,22 +88,9 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SecLarSecSmallArray">
-    <configuration name="CommonEleArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayPrograms.CommonEleArray" />
-      <module name="InterviewJavaProgramsQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArrayPrograms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountNumOccurrenceGivenWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringPrograms.CountNumOccurrenceGivenWord" />
+  <component name="RunManager" selected="Application.LeapYear">
+    <configuration name="FindDuplicateStringCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringPrograms.FindDuplicateStringCharacter" />
       <module name="InterviewJavaProgramsQA" />
       <extension name="coverage">
         <pattern>
@@ -113,8 +102,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EachWordOccrInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringPrograms.EachWordOccrInString" />
+    <configuration name="LeapYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumberPrograms.LeapYear" />
+      <module name="InterviewJavaProgramsQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NumberPrograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicateChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringPrograms.RemoveDuplicateChar" />
       <module name="InterviewJavaProgramsQA" />
       <extension name="coverage">
         <pattern>
@@ -126,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstnLastNumArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayPrograms.FirstnLastNumArray" />
+    <configuration name="StringCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringPrograms.StringCount" />
       <module name="InterviewJavaProgramsQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArrayPrograms.*" />
+          <option name="PATTERN" value="StringPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecLarSecSmallArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayPrograms.SecLarSecSmallArray" />
+    <configuration name="SwapStringsUsingSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringPrograms.SwapStringsUsingSubstring" />
       <module name="InterviewJavaProgramsQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArrayPrograms.*" />
+          <option name="PATTERN" value="StringPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SecLarSecSmallArray" />
-        <item itemvalue="Application.FirstnLastNumArray" />
-        <item itemvalue="Application.CommonEleArray" />
-        <item itemvalue="Application.EachWordOccrInString" />
-        <item itemvalue="Application.CountNumOccurrenceGivenWord" />
+        <item itemvalue="Application.LeapYear" />
+        <item itemvalue="Application.SwapStringsUsingSubstring" />
+        <item itemvalue="Application.StringCount" />
+        <item itemvalue="Application.RemoveDuplicateChar" />
+        <item itemvalue="Application.FindDuplicateStringCharacter" />
       </list>
     </recent_temporary>
   </component>
@@ -211,12 +213,37 @@
       <option name="project" value="LOCAL" />
       <updated>1726727584772</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added more Array-based Java exercises for QA automation interview prep">
+      <option name="closed" value="true" />
+      <created>1727170081680</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727170081680</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added more Array-based Java exercises for QA automation interview prep">
+      <option name="closed" value="true" />
+      <created>1727170104761</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727170104761</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added more String-based Java exercises for QA automation interview prep">
+      <option name="closed" value="true" />
+      <created>1727414961547</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727414961547</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implement number-based Java exercises for QA automation interview prep" />
     <MESSAGE value="Added more number-based Java exercises for QA automation interview prep" />
+    <MESSAGE value="Added more Array-based Java exercises for QA automation interview prep" />
     <MESSAGE value="Added more String-based Java exercises for QA automation interview prep" />
     <option name="LAST_COMMIT_MESSAGE" value="Added more String-based Java exercises for QA automation interview prep" />
   </component>
