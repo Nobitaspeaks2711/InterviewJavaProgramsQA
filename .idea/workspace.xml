@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8915c61-5bb2-4773-b443-eac19279318b" name="Changes" comment="Added more String-based Java exercises for QA automation interview prep">
-      <change afterPath="$PROJECT_DIR$/src/NumberPrograms/LeapYear.java" afterDir="false" />
+    <list default="true" id="c8915c61-5bb2-4773-b443-eac19279318b" name="Changes" comment="Added more Number-based Java exercises for QA automation interview prep">
+      <change afterPath="$PROJECT_DIR$/src/ArrayPrograms/ArrayDescOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayPrograms/PairSumToFifty.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +59,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArmstrongNumbers.executor": "Run",
+    "Application.ArrayDescOrder.executor": "Run",
     "Application.CommonEleArray.executor": "Run",
     "Application.CountNumOccurrenceGivenWord.executor": "Run",
     "Application.CountNumOccurrenceString.executor": "Run",
@@ -67,7 +69,9 @@
     "Application.FindDuplicateStringCharacter.executor": "Run",
     "Application.FirstnLastNumArray.executor": "Run",
     "Application.LargestNumberBtw3.executor": "Run",
+    "Application.LeapYear.executor": "Run",
     "Application.OddEvenNumbers.executor": "Run",
+    "Application.PairSumToFifty.executor": "Run",
     "Application.PalindromeNumber.executor": "Run",
     "Application.PrimeNumber.executor": "Run",
     "Application.RemoveDuplicateChar.executor": "Run",
@@ -88,13 +92,13 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LeapYear">
-    <configuration name="FindDuplicateStringCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringPrograms.FindDuplicateStringCharacter" />
+  <component name="RunManager" selected="Application.ArrayDescOrder">
+    <configuration name="ArrayDescOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayPrograms.ArrayDescOrder" />
       <module name="InterviewJavaProgramsQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringPrograms.*" />
+          <option name="PATTERN" value="ArrayPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicateChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringPrograms.RemoveDuplicateChar" />
+    <configuration name="PairSumToFifty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayPrograms.PairSumToFifty" />
       <module name="InterviewJavaProgramsQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringPrograms.*" />
+          <option name="PATTERN" value="ArrayPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayDescOrder" />
+        <item itemvalue="Application.PairSumToFifty" />
         <item itemvalue="Application.LeapYear" />
         <item itemvalue="Application.SwapStringsUsingSubstring" />
         <item itemvalue="Application.StringCount" />
-        <item itemvalue="Application.RemoveDuplicateChar" />
-        <item itemvalue="Application.FindDuplicateStringCharacter" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727414961547</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added more Number-based Java exercises for QA automation interview prep">
+      <option name="closed" value="true" />
+      <created>1727415061356</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727415061356</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -245,7 +257,8 @@
     <MESSAGE value="Added more number-based Java exercises for QA automation interview prep" />
     <MESSAGE value="Added more Array-based Java exercises for QA automation interview prep" />
     <MESSAGE value="Added more String-based Java exercises for QA automation interview prep" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added more String-based Java exercises for QA automation interview prep" />
+    <MESSAGE value="Added more Number-based Java exercises for QA automation interview prep" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more Number-based Java exercises for QA automation interview prep" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -259,6 +272,16 @@
           <url>file://$PROJECT_DIR$/src/StringPrograms/CountNumOccurrenceGivenWord.java</url>
           <line>2</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ArrayPrograms/ArrayDescOrder.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ArrayPrograms/ArrayDescOrder.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
