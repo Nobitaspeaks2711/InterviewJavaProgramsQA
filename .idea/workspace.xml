@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8915c61-5bb2-4773-b443-eac19279318b" name="Changes" comment="Added more array based Java exercises for QA automation interview prep">
-      <change afterPath="$PROJECT_DIR$/src/ArrayPrograms/ArrayDescOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayPrograms/PairSumToFifty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayPrograms/Threeby3matrics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumberPrograms/Asc_letters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumberPrograms/bigsmall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayPrograms/CommonEleArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayPrograms/CommonEleArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +31,15 @@
     {
       &quot;state&quot;: &quot;MERGED&quot;,
       &quot;assignee&quot;: &quot;Nobitaspeaks2711&quot;
+    },
+    {
+      &quot;searchQuery&quot;: &quot;git clone &lt;https://github.com/Nobitaspeaks2711/BDDCucumberAutomationProject&gt;&quot;,
+      &quot;state&quot;: &quot;MERGED&quot;,
+      &quot;assignee&quot;: &quot;Nobitaspeaks2711&quot;
     }
   ],
   &quot;lastFilter&quot;: {
+    &quot;searchQuery&quot;: &quot;git clone &lt;https://github.com/Nobitaspeaks2711/BDDCucumberAutomationProject&gt;&quot;,
     &quot;state&quot;: &quot;MERGED&quot;,
     &quot;assignee&quot;: &quot;Nobitaspeaks2711&quot;
   }
@@ -56,45 +64,72 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArmstrongNumbers.executor": "Run",
-    "Application.ArrayDescOrder.executor": "Run",
-    "Application.CommonEleArray.executor": "Run",
-    "Application.CountNumOccurrenceGivenWord.executor": "Run",
-    "Application.CountNumOccurrenceString.executor": "Run",
-    "Application.EachWordOccrInString.executor": "Run",
-    "Application.FactorialNumber.executor": "Run",
-    "Application.FibonacciSeries.executor": "Run",
-    "Application.FindDuplicateStringCharacter.executor": "Run",
-    "Application.FirstnLastNumArray.executor": "Run",
-    "Application.LargestNumberBtw3.executor": "Run",
-    "Application.LeapYear.executor": "Run",
-    "Application.OddEvenNumbers.executor": "Run",
-    "Application.PairSumToFifty.executor": "Run",
-    "Application.PalindromeNumber.executor": "Run",
-    "Application.PrimeNumber.executor": "Run",
-    "Application.RemoveDuplicateChar.executor": "Run",
-    "Application.RemoveSpace.executor": "Run",
-    "Application.ReverseString.executor": "Run",
-    "Application.SecLarSecSmallArray.executor": "Run",
-    "Application.StringCount.executor": "Run",
-    "Application.SumOfDigits.executor": "Run",
-    "Application.SwapStringsUsingSubstring.executor": "Run",
-    "Application.SwapTwoNumbers.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/DELL/OneDrive/Desktop/AutomationFrameworkSelenium-main",
-    "onboarding.tips.debug.path": "C:/Users/DELL/IdeaProjects/InterviewJavaProgramsQA/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArmstrongNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayDescOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Asc_letters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CommonEleArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountNumOccurrenceGivenWord.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountNumOccurrenceString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EachWordOccrInString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FactorialNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FibonacciSeries.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDuplicateStringCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstnLastNumArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LargestNumberBtw3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeapYear.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OddEvenNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PairSumToFifty.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalindromeNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicateChar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveSpace.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SecLarSecSmallArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringCount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfDigits.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwapStringsUsingSubstring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwapTwoNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/OneDrive/Desktop/AutomationFrameworkSelenium-main&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/DELL/IdeaProjects/InterviewJavaProgramsQA/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ArrayDescOrder">
+}</component>
+  <component name="RunManager" selected="Application.Asc_letters">
     <configuration name="ArrayDescOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayPrograms.ArrayDescOrder" />
+      <module name="InterviewJavaProgramsQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArrayPrograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Asc_letters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumberPrograms.Asc_letters" />
+      <module name="InterviewJavaProgramsQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NumberPrograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonEleArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayPrograms.CommonEleArray" />
       <module name="InterviewJavaProgramsQA" />
       <extension name="coverage">
         <pattern>
@@ -132,39 +167,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringPrograms.StringCount" />
-      <module name="InterviewJavaProgramsQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StringPrograms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SwapStringsUsingSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringPrograms.SwapStringsUsingSubstring" />
-      <module name="InterviewJavaProgramsQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StringPrograms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayDescOrder" />
+        <item itemvalue="Application.Asc_letters" />
+        <item itemvalue="Application.CommonEleArray" />
         <item itemvalue="Application.PairSumToFifty" />
+        <item itemvalue="Application.ArrayDescOrder" />
         <item itemvalue="Application.LeapYear" />
-        <item itemvalue="Application.SwapStringsUsingSubstring" />
-        <item itemvalue="Application.StringCount" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729781907522</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added more array based Java exercises for QA automation interview prep">
+      <option name="closed" value="true" />
+      <created>1729782419469</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1729782419469</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -291,6 +308,16 @@
           <url>file://$PROJECT_DIR$/src/ArrayPrograms/ArrayDescOrder.java</url>
           <line>2</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ArrayPrograms/PairSumToFifty.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberPrograms/Asc_letters.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
